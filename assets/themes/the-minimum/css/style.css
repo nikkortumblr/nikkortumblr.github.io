@@ -665,6 +665,12 @@ pre {
 	Wide Smartphone
 */
 @media only screen and (min-width: 480px) {
+
+  img {
+    max-width: 100%;
+  }
+
+
   .the-header .unit-inner {
     width: 26.25em;
   }
@@ -721,6 +727,11 @@ pre {
 	Tablet
 */
 @media only screen and (min-width: 768px) {
+
+  img {
+    max-width: 100%;
+  }
+
   .the-header .unit-inner {
     width: 43.125em;
   }
@@ -756,6 +767,12 @@ pre {
 	Not that old computer layout 
 */
 @media only screen and (min-width: 1280px) {
+
+  img {
+    max-width: 100%;
+  }
+
+
   .the-header .unit-inner {
     width: 60em;
   }
@@ -802,6 +819,12 @@ pre {
 	Huge-screen layout 
 */
 @media only screen and (min-width: 1410px) {
+
+  img {
+    max-width: 100%;
+  }
+
+
   .the-header .unit-inner {
     width: 88.125em;
   }
