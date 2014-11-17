@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Nikkor-H 50mm f2.0
+tagline: Nikkor-H 50mm f2.0
 ---
 {% include JB/setup %}
 
