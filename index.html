@@ -9,13 +9,13 @@ tagline: Nikkor-H 50mm f2.0
 <ul class="posts">
   {% for post in paginator.posts %}
     
-						<h1 class="h2 entry-title">{{ page.title }}
+						<h2>
 
-{{ post.date | date_to_string }} <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1>
+{{ post.date | date_to_string }}: <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1>
     {{ post.content }}
 
   {% endfor %}
-</ul>
+
 
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
