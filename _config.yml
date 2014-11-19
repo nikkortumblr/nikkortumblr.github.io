@@ -27,7 +27,7 @@ author :
 #
 production_url : http://username.github.io
 
-paginate: 2
+paginate: 20
 
 
 
