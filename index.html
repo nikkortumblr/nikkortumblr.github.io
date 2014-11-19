@@ -8,9 +8,12 @@ tagline: Nikkor-H 50mm f2.0
 
 <ul class="posts">
   {% for post in paginator.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+    
+						<h1 class="h2 entry-title">{{ page.title }}
+
+{{ post.date | date_to_string }} <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1>
     {{ post.content }}
-</li>
+
   {% endfor %}
 </ul>
 
