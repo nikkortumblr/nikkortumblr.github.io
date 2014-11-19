@@ -1,20 +1,16 @@
 ---
-layout: default
+layout: page
 title: Nikkor-H 50mm f2.0
 tagline: Nikkor-H 50mm f2.0
 ---
 {% include JB/setup %}
 
-<div class="content">
+
+<ul class="posts">
   {% for post in paginator.posts %}
-    <article>
-      <header>
-        <h2><a href="{{ site.siteurl }}{{ post.url }}">{{ post.title }}</a></h2>
-        <h5>{{ post.date | date: "%d %b %Y" }}</h5>
-        <p>{{ post.content }}</p>
-      </header>
-    </article>
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
+</ul>
 
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
@@ -36,5 +32,4 @@ tagline: Nikkor-H 50mm f2.0
   </div>
   {% endif %}
 </div>
-
 
