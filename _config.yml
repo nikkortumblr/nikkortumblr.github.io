@@ -27,6 +27,10 @@ author :
 #
 production_url : http://username.github.io
 
+paginate: 2
+paginator_path: "blog/page:num"
+
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
